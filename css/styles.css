@@ -196,9 +196,11 @@ body {
 .navigation-link:active {
   color: var(--accent-color);
 }
+.current {
+  color: var(--accent-color);
+}
 
 .current::after {
-  color: var(--accent-color);
   opacity: 1;
   transform: scaleX(1);
 }
@@ -499,6 +501,7 @@ body {
 }
 .team-soc-link-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .team-soc-link {
